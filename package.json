@@ -1,7 +1,5 @@
 {
-  "name": "projeto",
-  "module": "index.ts",
-  "type": "module",
+  "name": "proj",
   "private": true,
   "devDependencies": {
     "@types/bun": "latest"
