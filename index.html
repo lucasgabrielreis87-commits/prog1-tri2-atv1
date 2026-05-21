@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Lista de compra</title>
+    <style>
+        img {
+            display: none;
+        }
+    </style>
+    <script type="module" defer async>
+    import './main.js';         
+    </script>
+</head>
+<body>
+    <main>
+        <div class="adicionar">
+            <input type="text" placeholder="Digite a tarefa" />
+            <button>Adicionar</button>
+        </div>
+        <div class="tarefas">
+            <template>
+                <div class="tarefa">
+                    <span>Exemplo de tarfea</span>
+                    <button class="excluir">Excluir</button>
+            </template>
+        </div>
+    </main>
+</body>
+</html>
